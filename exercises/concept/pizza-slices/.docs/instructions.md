@@ -15,7 +15,7 @@ sliceSize(diameter: nil, slices: 8)
 
 ## 2. Process input from your web application to determine the larger slice.
 
-You web application will pass four strings to your function, `biggestSlice(diameterA: String, slicesA: String, diameterB: String, slicesB: String) -> String`. The first and second strings are the diameter and number of slices of the first pizza respectively, and the third and fourth are the diameter and number of slices of the second pizza respectively.
+Your web application will pass four strings to your function, `biggestSlice(diameterA: String, slicesA: String, diameterB: String, slicesB: String) -> String`. The first and second strings are the diameter and number of slices of the first pizza respectively, and the third and fourth are the diameter and number of slices of the second pizza respectively.
 
 Implement `biggestSlice` so that it attempts to convert the diameter and number of slices for each pizza into a `Double` and an `Int` respectively if both of these values can be obtained from the strings, use your first function to try to compute the area, otherwise the area for that slice is `nil`. Once the areas of both slices are obtained, compare the two areas using the following rules:
 
